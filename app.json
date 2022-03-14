@@ -1,64 +1,72 @@
 {
-  "name": "CatUserbot",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
-  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "name": "بـوت جـمثون",
+  "description": "بـوت جمثون العربي الاول في الشرق الأوسط السورس مجاني لا يخدعك أحد في تنصيب - قناة السورس @JMTHON ",
+  "logo": "https://telegra.ph/file/5f6ef13851dcf0d6fc72b.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sandy1709/catuserbot/",
+  "repository": "https://github.com/JMTHON-AR/jmthon",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "give your name",
+      "description": "هـنا ضع اسم حسابك الخاص بالتلي",
       "value": ""
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "هـنا ضع ايبي ايدي احصل عليه من  :  my.telegram.org",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "هـنا ضع ايبي هاش احصل عليه من my.telegram.org",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
+      "description": "هـنا ضع كـود تيرمكس ",
+      "value": "",
+      "required": false
+    },
+    "TG_BOT_USERNAME": {
+      "description": " @ هنـا ضع معرف بوت التلي الخاص بك بدون ",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "description": "هنـا ضع توكن بوتك .",
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
+      "description": "لا تغيـرها ابدا",
       "value": ".",
       "required": false
     },
     "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
+      "description": "لا تغيـرها ابدا.",
       "value": "ANYTHING",
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
+      "description": "ايبـي هيروكو احصل عليه من هذا الرابط مطلوبة ! https://dashboard.heroku.com/account",
+      "value": ""
     },
     "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
+      "description": "اسم التطبيق اول اسم خليته ",
+      "value": ""
+    },
+    "DEFAULT_BIO": {
+      "description": "هنا خلي نبذتك حسابك الي تطلع وي البايو الوقتي ",
       "value": "",
       "required": false
     },
     "TZ": {
-      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "description": "هنـا ضع المنطقه الزمنية الخاص بك  احصل عليه من  http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "goodcat",
+      "description": "لا تغيـرها ابدا",
+      "value": "jmthon-ar",
       "required": false
     }
   },
