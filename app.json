@@ -66,7 +66,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "لا تغيـرها ابدا",
-      "value": "jmthonar",
+      "value": "https://github.com/ALwALIt/dar_ALWALI",
       "required": false
     }
   },
