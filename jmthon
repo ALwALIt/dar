@@ -26,17 +26,17 @@ _get_repolink () {
 _setting_bot () {
     local zippath
     zippath="JmthonBot.zip"
-    echo "  يتم تحميل ملفات سورس الوالي ..."
+    echo "  يتم تحميل ملفات سورس ماتركس ..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  فك بيانات السورس ..."
     JMTHONPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "✓"
-    echo "  يتم التفريغ.."
+    echo "  تحياتي - دار @ZBBBBB.."
     rm -rf "$zippath"
     sleep 5
     cd $JMTHONPATH
-    echo "    بدء بوت الوالي    "
+    echo "    بدء بوت ماتركس    "
     echo "
                        
 ╋╋╋╋╋┏┓┏┓
